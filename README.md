@@ -1,16 +1,77 @@
-# React + Vite
+# 🎮 Tic Tac Toe — React Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, interactive Tic Tac Toe game built with React.  
+Built to practice state management, hooks, and game logic.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://your-live-link.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Two-player game (X vs O)
+- Win detection (rows, columns, diagonals)
+- Game lock after win
+- Reset functionality
+- React hooks based logic
+- Clean UI
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- JavaScript
+- CSS
+- HTML
+
+---
+
+## 📂 Project Structure
+
+src/
+- assets/
+- components/TicTacToe.jsx
+- TicTacToe.css
+- main.jsx
+
+---
+
+## 🧠 Concepts Used
+
+- useState
+- useRef
+- Array-based state
+- Conditional rendering
+- Event handling
+
+---
+
+## 🎮 How to Play
+
+1. X starts first
+2. Players alternate turns
+3. First to 3 in a row wins
+4. Reset to restart
+
+---
+
+## 🚀 Setup
+
+```bash
+git clone https://github.com/dev-nouman/tic-tac-toe-react.git
+cd tic-tac-toe-react
+npm install
+npm run dev
+```
+
+--- 
+## 👨‍💻 Author Muhammad Nouman Ali GitHub: https://github.com/dev-nouman
+
+
+ 
+## ⭐ If you like this project Give it a star ⭐
